@@ -1,0 +1,156 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 35px;
+  justify-content: space-between;
+font-family: sans-serif;
+}
+
+
+
+.hamburger-menu{
+  width: 23px;
+  
+
+}
+
+
+.left-part{
+  display: flex;
+  align-items: center;
+  
+}
+.uberlogo{
+  margin-left: 30px;
+}
+
+.right-part{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 220px;
+  justify-content: space-between;
+}
+.log-in-button{
+  width: 101px;
+  height: 45px;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sign-up-button{
+  width: 101px;
+  height: 45px;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  height:200px;
+  width: 1000px;
+  margin-top: 200px;
+  padding-left: 40px;
+ padding-right: 40px;
+}
+
+.content1{
+  font-size: 52px;
+  font-weight: 700;
+}
+.content2{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.input{
+position: relative;
+
+}
+.location-icon{
+  width: 25px;
+  object-position: center;
+  position: absolute;
+  align-self: center;
+  padding-top: 12px;
+  padding-left: 11px;
+  padding-right: 7px;
+  
+}
+.delivery-input{
+  height: 50px;
+  width: 500px;
+  padding-left: 55px;
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+  margin-bottom: 30px;
+ 
+}
+
+.time-logo, .down-arrow{
+  width: 25px;
+  cursor: pointer;
+}
+
+.delivery-selector{
+  width: 180px;
+  height: 52px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.button-container{
+  margin-left: 8px;
+
+}
+
+.order-button{
+  
+  height: 52px;
+  color: white;
+  background-color: black;
+  font-size: 17px;
+  border: none;
+  white-space: nowrap;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  
+}
+.sign-in{
+  font-size: 14px;
+}
+body{
+  font-family: sans-serif;
+  background-image: url('https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png');
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
